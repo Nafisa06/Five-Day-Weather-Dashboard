@@ -32,3 +32,12 @@ ul {
       
 }
 
+/* Header Styling */
+
+#header {
+    width: 100%;
+    background: linear-gradient(to right, #0099ff 0%, #0000cc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
