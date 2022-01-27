@@ -11,6 +11,52 @@
     <header id="header">
         <h1 id="header-title"> Weather Dashboard</h1>
     </header>
+
+    <main>
+
+    <!-- City search container-->
+
+    <section id="city-search-container">
+        <div id="city-search-title-container">
+            <h3 id="city-search-title">Search for a City:</h3>
+        </div>
+
+     <!-- City input search area -->
+
+        <div id="city-search-form-container">
+            <input id="city-search-form" type="text">
+        </div>
+
+     <!-- submit button and local storage area -->
+
+        <button id="city-search-button">Submit</button>
+        <ul id="saved-cities-container"></ul>
+    </section>
+
+     <!-- Weather container with images, 5 days -->
+
+    <section id="todays-weather-container">
+        <div id="todays-weather-title-container">
+            <h3 id="todays-weather-title">City</h3>
+            <img id="today-img" src="" alt="">
+        </div>
+
+     <!-- Weather info -->
+
+        <div id="todays-weather-info">
+            <p class="todays-info" id="temp">Temperature: </p>
+            <p class="todays-info" id="wind">Wind: </p>
+            <p class="todays-info" id="humidity">Humidity: </p>
+            <div class="todays-info" id="uv-index">
+                <span>UV Index: </span>
+                <span id="uv-index2"></span>
+            </div>
+
+        </div>
+
+        <section id="Forecast-container"></section>
+
+    </section>
     
     <main>
     
