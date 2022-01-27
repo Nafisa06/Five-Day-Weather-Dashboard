@@ -41,3 +41,8 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+#title {
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
