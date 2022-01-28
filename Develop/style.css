@@ -54,3 +54,20 @@ ul {
     height:100%;
     font-size: 20px;
 }
+#city-search-container div {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#city-search-title-container {
+    color: rgb(97, 97, 226);
+}
+#city-search-form-container {
+    width: 100%;
+    display: block;
+}
+#city-search-form {
+    width: 100%;
+    font-size: 20px;
+}
