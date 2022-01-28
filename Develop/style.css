@@ -46,3 +46,11 @@ ul {
     color: white;
     padding-top: 1%;
     padding-bottom: 1%;
+
+}
+#city-search-container {
+    margin-left:2% ;
+    width: 30%;
+    height:100%;
+    font-size: 20px;
+}
