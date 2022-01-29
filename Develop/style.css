@@ -82,4 +82,9 @@ ul {
     margin-top: 10px;
 }
 
+#saved-cities-container {
+    margin-top: 10px;
+    height: auto;
+    width: 100%; 
+    background: white; 
 }
