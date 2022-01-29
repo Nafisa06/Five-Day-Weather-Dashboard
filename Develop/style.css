@@ -100,3 +100,19 @@ ul {
     display: flex;
     justify-content: center;
 }
+#today-image {
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+#todays-weather-title {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+#todays-weather-information {
+    height: auto;
+    margin-left: 5px
+    line-height: 15px;
+}
