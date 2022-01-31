@@ -1,7 +1,8 @@
 // set up functions to fetch info for the 5 day forecast"
 function GetInfo() {
 
-    var cityName = document.getElementById("city-search-form");
+    var newName = document.getElementById("city-search-form");
+    var cityName = document.getElementById("cityName");
     cityName.innerHTML = "--"+newName.value+"--";
 
 fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appid=e3497886710fe25a18c64173a4cff560')
@@ -23,9 +24,6 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
    
     //Getting Weather Icons
      for(i = 0; i<5; i++){
-        document.getElementById("img" + (i+1)).src = "http://openweathermap.org/img/wn/"+
-        data.list[i].weather[0].icon
-        +".png";
+        document.getElementById("img" + (i+1)).src = "http://openweathermap.org/img/wn/"+ data.list[i].weather[0].icon +".png";
     }
-    //------------------------------------------------------------
-    console.log(data)
+        console.log(data)
