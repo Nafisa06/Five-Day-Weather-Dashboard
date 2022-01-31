@@ -31,7 +31,7 @@ function GetInfo() {
 
         }
         )
-}
+}// event listener search button
 
 
 // displaying text for the upcoming five days of the week
