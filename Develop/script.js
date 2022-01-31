@@ -30,6 +30,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
         console.log(data)
 
     }
+)
 
 
 // displaying text for the upcoming five days of the week
@@ -50,5 +51,3 @@ function CheckDay(day){
     for(i = 0; i<5; i++){
         document.getElementById("day" + (i+1)).innerHTML = weekday[CheckDay(i)];
     }
-}
-
