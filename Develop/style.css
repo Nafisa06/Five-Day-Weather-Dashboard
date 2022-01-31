@@ -1,5 +1,5 @@
 /* styling for body*/
- {
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -119,7 +119,7 @@ ul {
 
 #todays-weather-information {
     height: auto;
-    margin-left: 5px
+    margin-left: 5px;
     line-height: 15px;
 }
 
