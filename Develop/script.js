@@ -12,7 +12,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
     //Getting the temperature values for each day
     for(i = 0; i<5; i++){
         document.getElementById("temp" + (i+1)).innerHTML = "Temp: " + Number(data.list[i].main.temp - 281.35).toFixed(1)+ "°";
-    {
+    }
 
     for(i = 0; i<5; i++){
         document.getElementById("wind" + (i+1)).innerHTML = "wind: " + Number(data.list[i].wind.speed - 6.4).toFixed(2) + "MPH";
@@ -29,7 +29,8 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
     }
         console.log(data)
 
-    })
+    }
+
 
 // displaying text for the upcoming five days of the week
 
@@ -49,3 +50,5 @@ function CheckDay(day){
     for(i = 0; i<5; i++){
         document.getElementById("day" + (i+1)).innerHTML = weekday[CheckDay(i)];
     }
+}
+
